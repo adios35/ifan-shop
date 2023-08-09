@@ -1,0 +1,25 @@
+/* Carousel.css */
+
+.carousel-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.carousel-img-container {
+  position: relative;
+}
+
+.carousel-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-buttons {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
